@@ -30,14 +30,16 @@ const Slider = ({ img }) => {
         <SwiperSlide>
           <div className="hero">
             <div className="hero-content flex-col lg:flex-row-reverse ">
-              <img src={img} className="w-[500px] h-[400px] " />
+              <img src={img} style={{ width: "600px" }} />
               <div>
-                <h1 className="text-5xl font-bold ">
+                <h1 className="text-5xl font-bold text-left">
                   Largest and reliable daily <br />
                   service in your city
                 </h1>
-                <h1 className="text-5xl font-bold ">in your city</h1>
-                <p className="py-6">Coordinated connected credible</p>
+                <h1 className="text-5xl font-bold text-left">in your city</h1>
+                <p className="py-6 text-left text-gray-400 text-2xl font-simebold">
+                  Coordinated connected credible
+                </p>
               </div>
             </div>
           </div>
@@ -45,14 +47,16 @@ const Slider = ({ img }) => {
         <SwiperSlide>
           <div className="hero">
             <div className="hero-content flex-col lg:flex-row-reverse ">
-              <img src={img} className="w-[500px] h-[400px] " />
+              <img src={img} style={{ width: "600px" }} />
               <div>
-                <h1 className="text-5xl font-bold ">
+                <h1 className="text-5xl font-bold text-left">
                   Largest and reliable daily <br />
                   service in your city
                 </h1>
-                <h1 className="text-5xl font-bold ">in your city</h1>
-                <p className="py-6">Coordinated connected credible</p>
+                <h1 className="text-5xl font-bold text-left">in your city</h1>
+                <p className="py-6 text-left text-gray-400 text-2xl font-simebold">
+                  Coordinated connected credible
+                </p>
               </div>
             </div>
           </div>
